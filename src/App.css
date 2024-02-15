@@ -55,3 +55,14 @@ p::-moz-selection {
   flex-direction: column;
   gap: 2rem;
 }
+
+.wifo-site-alert-container{
+  position: absolute;
+  bottom: 0;
+  margin: 1rem;
+  z-index: 6;
+}
+
+.wifo-site-alert{
+  border-radius: 0.75rem !important;
+}

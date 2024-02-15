@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './videoPopUp.css'
 
 //Icons
-import { FaDownload, FaAngleLeft, FaAngleRight } from "react-icons/fa6";
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa6";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 const VideoPopUp = (props) => {
@@ -28,11 +28,15 @@ const VideoPopUp = (props) => {
     }
 
     const handleClickOpenSlides = (filename) => {
-        const filePath = `/resources/${filename}`;
-        const win = window.open(filePath, '_blank');
-
-        if(win){
-            win.focus();
+        if(filename !== '-'){
+            const filePath = `/resources/${filename}`;
+            const win = window.open(filePath, '_blank');
+    
+            if(win){
+                win.focus();
+            }
+        } else {
+            props.openAlert('Datei leider noch nicht verfügbar', 'warning');
         }
     }
 

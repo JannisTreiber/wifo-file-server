@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import CustomIconButton from '../Components/CustomComponents/CustomIconButton';
 import VideoButton from '../Components/CustomComponents/VideoButton';
 import VideoPopUp from '../Components/VideoPopUp/VideoPopUp';
 import { Backdrop } from '@mui/material';
@@ -12,8 +11,6 @@ import { IoArrowBackOutline } from "react-icons/io5";
 import { useNavigate } from 'react-router-dom';
 
 const VideoListPage = (props) => {
-
-    //redux selected videos -> render array based on that.
 
     const [popUpOpen, setPopUpOpen] = useState(false);
     const [selectedVideoUrls, setSelectedVideoUrls] = useState(props.data[0].videoURLs);
@@ -64,6 +61,7 @@ const VideoListPage = (props) => {
                 <div className="video-list-page-video-pop-up-container">
                     <VideoPopUp
                         videoURLs={selectedVideoUrls}
+                        openAlert={props.openAlert}
                     />
                 </div>
             </Backdrop>
