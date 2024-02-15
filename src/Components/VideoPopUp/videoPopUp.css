@@ -1,0 +1,66 @@
+.video-pop-up{
+    width: 60vw;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0.75rem;
+    border-radius: 1rem;
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.video-pop-up-video-player-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 0.75rem;
+}
+
+.video-pop-up-video-frame{
+    width: 100%;
+    border: 0;
+    border-radius: 0.75rem;
+}
+
+.video-pop-up-video-player-button-container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-pop-up-video-player-button{
+    border: 0;
+    background: none;
+    color: #4A4A4A;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.video-pop-up-video-player-button:hover{
+    transform: translateY(-3px);
+}
+
+.video-pop-up-download-lecture-slides-button{
+    width: 100%;
+    border: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem;
+    color: #4A4A4A;
+    font-size: 1rem;
+    font-family:  Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    border-radius: 0.75rem;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.video-pop-up-download-lecture-slides-button:hover{
+    transform: translateY(-3px);
+    background-color: #ff7300;
+    color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+}

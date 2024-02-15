@@ -1,0 +1,10 @@
+.navbar{
+    width: 100vw;
+    display: flex;
+    padding: 1rem;
+    background-color: #ff7300;
+}
+
+.navbar-title{
+    color: white;
+}

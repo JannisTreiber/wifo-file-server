@@ -1,0 +1,7 @@
+.error-page{
+    align-self: center;
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

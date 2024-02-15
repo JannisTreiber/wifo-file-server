@@ -1,0 +1,57 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #ffffff; 
+  /* background-color: #F8F8F8;  */
+  color: #4A4A4A;
+  overflow: hidden;
+}
+
+p::selection {
+  background: #4A4A4A; /* WebKit/Blink Browsers */
+  color: white;
+}
+p::-moz-selection {
+  background: #4A4A4A; /* Gecko Browsers */
+  color: white;
+}
+
+/*------------- Scrollbar -------------*/
+
+/* For Chrome, Edge, and Safari */
+/* This styles the scrollbar track (the part the thumb slides within) */
+::-webkit-scrollbar-track {
+  background-color: #f4f4f4; /* Light gray track */
+}
+
+/* This styles the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background-color: #4A4A4A; /* Darker gray thumb */
+  border-radius: 1rem; /* Rounded corners on the thumb */
+}
+
+/* Changes the color of the thumb on hover or when active */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #353535; /* Even darker color on hover */
+}
+
+/* This styles the main scrollbar container */
+::-webkit-scrollbar {
+  width: 4px; /* Width of the scrollbar */
+  height: 4px; /* Height of the horizontal scrollbar */
+}
+
+/*------------- Scrollbar -------------*/
+
+.wifo-site{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
