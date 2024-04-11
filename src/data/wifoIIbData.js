@@ -6,7 +6,8 @@ const wifoIIbData = [
         videoURLs: [
             {
                 url: 'https://data.dws.informatik.uni-mannheim.de/wifo2/2b/Fairness.mp4',
-                slides: '-',
+                slides: '2-Wifo42-PetriNetzeAnalyse.pdf',
+                pageNumber: 30,
                 id: uuidv4()
             },
         ],
@@ -17,8 +18,9 @@ const wifoIIbData = [
         videoURLs: [
             {
                 url: 'https://data.dws.informatik.uni-mannheim.de/wifo2/2b/Invarianten.mp4',
-                slides: '-',
-                id: uuidv4()
+                slides: '2-Wifo42-PetriNetzeAnalyse.pdf',
+                id: uuidv4(),
+                pageNumber: 36
             },
         ],
         id: uuidv4()
@@ -28,8 +30,9 @@ const wifoIIbData = [
         videoURLs: [
             {
                 url: 'https://data.dws.informatik.uni-mannheim.de/wifo2/2b/Quantitativ.mp4',
-                slides: '-',
-                id: uuidv4()
+                slides: '4-Wifo42-WorkflowAnalyse.pdf',
+                id: uuidv4(),
+                pageNumber: 13
             },
         ],
         id: uuidv4()
@@ -39,8 +42,9 @@ const wifoIIbData = [
         videoURLs: [
             {
                 url: 'https://data.dws.informatik.uni-mannheim.de/wifo2/2b/Soundness.mp4',
-                slides: '-',
-                id: uuidv4()
+                slides: '4-Wifo42-WorkflowAnalyse.pdf',
+                id: uuidv4(),
+                pageNumber: 1
             },
         ],
         id: uuidv4()
@@ -50,7 +54,7 @@ const wifoIIbData = [
         videoURLs: [
             {
                 url: 'https://data.dws.informatik.uni-mannheim.de/wifo2/2b/Sprachen.mp4',
-                slides: '-',
+                slides: '5-Wifo42-ProzessSprachen.pdf',
                 id: uuidv4()
             },
         ],
@@ -61,8 +65,9 @@ const wifoIIbData = [
         videoURLs: [
             {
                 url: 'https://data.dws.informatik.uni-mannheim.de/wifo2/2b/Workflow.mp4',
-                slides: '-',
-                id: uuidv4()
+                slides: '3-Wifo42-WorkflowModelle.pdf',
+                id: uuidv4(),
+                pageNumber: 1
             },
         ],
         id: uuidv4()
@@ -72,8 +77,9 @@ const wifoIIbData = [
         videoURLs: [
             {
                 url: 'https://data.dws.informatik.uni-mannheim.de/wifo2/2b/wifo-2b.1.1-Einleitung.mp4',
-                slides: '-',
-                id: uuidv4()
+                slides: '1-Wifo42-PetriNetzeGrundlagen.pdf',
+                id: uuidv4(),
+                pageNumber: 1
             },
         ],
         id: uuidv4()
@@ -83,8 +89,9 @@ const wifoIIbData = [
         videoURLs: [
             {
                 url: 'https://data.dws.informatik.uni-mannheim.de/wifo2/2b/wifo-2b.1.2-PetriNetze.mp4',
-                slides: '-',
-                id: uuidv4()
+                slides: '1-Wifo42-PetriNetzeGrundlagen.pdf',
+                id: uuidv4(),
+                pageNumber: 10
             },
         ],
         id: uuidv4()
@@ -94,8 +101,9 @@ const wifoIIbData = [
         videoURLs: [
             {
                 url: 'https://data.dws.informatik.uni-mannheim.de/wifo2/2b/wifo-2b.1.3-Ampel.mp4',
-                slides: '-',
-                id: uuidv4()
+                slides: '1-Wifo42-PetriNetzeGrundlagen.pdf',
+                id: uuidv4(),
+                pageNumber: 22
             },
         ],
         id: uuidv4()
@@ -105,7 +113,7 @@ const wifoIIbData = [
         videoURLs: [
             {
                 url: 'https://data.dws.informatik.uni-mannheim.de/wifo2/2b/wifo-2b.2.4-Erreichbarkeitsgraphen.mp4',
-                slides: '-',
+                slides: '2-Wifo42-PetriNetzeAnalyse.pdf',
                 id: uuidv4()
             },
         ],
@@ -116,8 +124,9 @@ const wifoIIbData = [
         videoURLs: [
             {
                 url: 'https://data.dws.informatik.uni-mannheim.de/wifo2/2b/wifo-2b.2.5-Abdeckungsgraph.mp4',
-                slides: '-',
-                id: uuidv4()
+                slides: '2-Wifo42-PetriNetzeAnalyse.pdf',
+                id: uuidv4(),
+                pageNumber: 20
             },
         ],
         id: uuidv4()
@@ -127,12 +136,12 @@ const wifoIIbData = [
         videoURLs: [
             {
                 url: 'https://data.dws.informatik.uni-mannheim.de/wifo2/2b/wifo-2b.3-BPMN-Einfuehrung.mp4',
-                slides: '-',
+                slides: 'BPMN-Einfuehrung.pdf',
                 id: uuidv4()
             },
             {
                 url: 'https://data.dws.informatik.uni-mannheim.de/wifo2/2b/wifo-2b.4-BPMN-Fortgeschritten.mp4',
-                slides: '-',
+                slides: 'BPMN-Fortgeschritten.pdf',
                 id: uuidv4()
             }
         ],

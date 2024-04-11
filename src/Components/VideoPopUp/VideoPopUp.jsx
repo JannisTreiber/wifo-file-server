@@ -27,9 +27,10 @@ const VideoPopUp = (props) => {
         }
     }
 
-    const handleClickOpenSlides = (filename) => {
+    const handleClickOpenSlides = (filename, pageNumber = 1) => {
         if(filename !== '-'){
-            const filePath = `/resources/${filename}`;
+            //const filePath = `/resources/${filename}`;
+            const filePath = `/resources/${filename}#page=${pageNumber}`;
             const win = window.open(filePath, '_blank');
     
             if(win){
@@ -70,7 +71,7 @@ const VideoPopUp = (props) => {
         </div>
         <button 
             className="video-pop-up-download-lecture-slides-button"
-            onClick={() => handleClickOpenSlides(props.videoURLs[currentVideoIndex].slides)}
+            onClick={() => handleClickOpenSlides(props.videoURLs[currentVideoIndex].slides, props.videoURLs[currentVideoIndex].pageNumber? props.videoURLs[currentVideoIndex].pageNumber : 1)}
         >
             <FaExternalLinkAlt/>
             Öffnen

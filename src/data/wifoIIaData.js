@@ -90,7 +90,8 @@ const wifoIIaData = [
             {
                 url: 'https://data.dws.informatik.uni-mannheim.de/wifo2/2a/wifo-2a.7-part2.mp4',
                 slides: 'BeschreibungslogikGrundlagen.pdf',
-                id: uuidv4()
+                id: uuidv4(),
+                pageNumber: 27
             }
         ],
         id: uuidv4()
